@@ -1,0 +1,39 @@
+{
+  "name": "gulp-scss-bootstrap",
+  "version": "1.0.0",
+  "description": "SCSS / BOOTSTRAP / GULP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4drian-sanchez/gulp-scss-bootstrap.git"
+  },
+  "author": "Adrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4drian-sanchez/gulp-scss-bootstrap/issues"
+  },
+  "homepage": "https://github.com/4drian-sanchez/gulp-scss-bootstrap#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "bootstrap": "^5.3.0-alpha1",
+    "cssnano": "^5.1.14",
+    "gulp": "^4.0.2",
+    "gulp-avif": "^1.1.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-purgecss": "^5.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-webp": "^4.0.1",
+    "postcss": "^8.4.21",
+    "sass": "^1.57.1"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%"
+  ]
+}
