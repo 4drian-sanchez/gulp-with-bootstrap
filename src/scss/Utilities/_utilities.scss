@@ -1,0 +1,13 @@
+@use "../custom" as *;
+
+.container {
+  @include make-container(xxl);
+  width: 95%;
+  max-width: map-get($map: $container-max-widths, $key: xxl);
+}
+
+.mtn-6 {
+  @include media-breakpoint-up(md) {
+    margin-top: -6rem;
+  }
+}

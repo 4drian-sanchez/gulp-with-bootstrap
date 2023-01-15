@@ -1,0 +1,35 @@
+@mixin bgImage($url, $color) {
+  background-image: linear-gradient(
+      transparentize($color, 0.3),
+      transparentize($color, 0.4)
+    ),
+    url($url);
+
+  background-size: cover;
+  background-position: center;
+}
+
+@mixin headingImg($color1, $color2, $url) {
+  font-size: 3.5rem;
+  color: $color1;
+  text-align: center;
+  line-height: 1;
+
+  span {
+    font-size: 2rem;
+    color: $color2;
+    display: block;
+  }
+
+  &::after {
+    content: "";
+    background-image: url($url);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    margin-top: -1rem;
+  }
+}
