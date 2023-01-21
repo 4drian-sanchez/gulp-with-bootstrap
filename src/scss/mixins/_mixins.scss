@@ -1,7 +1,7 @@
-@mixin bgImage($url, $color) {
+@mixin bgImage($url, $color, $transparentaze) {
   background-image: linear-gradient(
-      transparentize($color, 0.3),
-      transparentize($color, 0.4)
+      transparentize($color, $transparentaze),
+      transparentize($color, 0$transparentaze)
     ),
     url($url);
 
